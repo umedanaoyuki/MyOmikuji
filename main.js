@@ -5,8 +5,8 @@
     const result = document.getElementById('result');
 
     btn.addEventListener('click', () => {
-        const results = ['大吉', '中吉', '凶'];
-        const n = Math.floor(Math.random()*3);
+        const results = ['大吉', '中吉', '凶', '小吉'];
+        const n = Math.floor(Math.random()* results.length);
 
         result.textContent = results[n];
 
