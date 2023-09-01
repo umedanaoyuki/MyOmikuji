@@ -24,3 +24,14 @@ p {
     font-size: 36px;
     padding: 24px 0;
 }
+
+button {
+    all: unset;
+    margin-top: 16px;
+    background-color: red;
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+}
